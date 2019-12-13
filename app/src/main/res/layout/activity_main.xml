@@ -32,7 +32,7 @@
                 android:layout_height="match_parent">
                 <TextView
                     android:text="Ngo name new game"
-                    android:textSize="18dp"
+                    android:textSize="20dp"
                     android:textStyle="bold"
                     android:textColor="#333"
                     android:maxLines="2"
