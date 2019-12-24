@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="18dp"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Welcome"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="#ff8900"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <LinearLayout
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/donation"
+                android:paddingTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:paddingTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email or Username">
+
+            </TextView>
+            <EditText
+                android:background="#0000"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:hint="xyz@gmail.com"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+        </LinearLayout>
+        <ImageView
+
+            android:layout_weight="9"
+            android:padding="10dp"
+            android:src="@drawable/head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password">
+
+            </TextView>
+            <EditText
+                android:background="#0000"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:inputType="textPassword"
+                android:hint="*********"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+        </LinearLayout>
+        <ImageView
+
+            android:layout_weight="9"
+            android:padding="10dp"
+            android:src="@drawable/padlockk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#999"
+            android:text="Not Registered?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="#ff8900"
+            android:text="  Create now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="#ff8900"
+        android:text="Forgot Password?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <LinearLayout
+
+        android:padding="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/followbckgrnd">
+        <TextView
+            android:textColor="#fff"
+            android:text="Continue"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="OR"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <LinearLayout
+
+        android:padding="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fb_button">
+        <TextView
+            android:textColor="#fff"
+            android:text="Login using Facebook"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:padding="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fb_button">
+        <TextView
+            android:textColor="#fff"
+            android:text="Login using Gmail"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

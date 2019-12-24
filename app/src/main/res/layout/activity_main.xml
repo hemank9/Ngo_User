@@ -75,7 +75,7 @@
                     android:background="@drawable/followbckgrnd">
                     <TextView
                         android:textColor="#fff"
-                        android:text="Follow"
+                        android:text="Following"
                         android:gravity="center"
                         android:textStyle="bold"
 
